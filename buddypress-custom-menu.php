@@ -34,7 +34,7 @@ function create_bp_custom_menu_page_post_type() {
         'has_archive' => false,
         'show_ui' => true,
         'show_in_admin_bar' => false,
-        'menu_icon' => '',
+        'menu_icon' => 'dashicons-list-view',
         'hierarchical' => true,
         'show_in_rest' => false,
         'supports' => array( 'title', 'editor', 'page-attributes', ),
