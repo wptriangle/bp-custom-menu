@@ -21,6 +21,6 @@ if ( ! defined( 'WPINC' ) ) {
 }
 
 /*
- * Call the core plugin file
+ * Call the plugin loader file
  */
-require_once plugin_dir_path( __FILE__ ) . 'includes/core.php';
+require_once plugin_dir_path( __FILE__ ) . 'includes/loader.php';
