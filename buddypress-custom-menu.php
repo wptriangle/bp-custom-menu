@@ -8,8 +8,9 @@
  * Author URI: https://nfmohit.pro
  * Text Domain: buddypress-custom-menu
  *
- * @package BuddyPress Custom Menu
- * @version 1.0
+ * @since      1.0
+ * @package    BuddyPress Custom Menu
+ * @author     Nahid Ferdous Mohit
  */
 
 /*
