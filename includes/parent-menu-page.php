@@ -30,5 +30,5 @@ function bp_custom_menu_page_screen_function_content() {
 
 	$bp_current_nav_item_post = get_post( $bp_current_nav_item_id );
 
-	echo $bp_current_nav_item_post->post_content;
+	echo esc_html( $bp_current_nav_item_post->post_content );
 }
