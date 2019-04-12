@@ -7,6 +7,9 @@
  * @author     Nahid Ferdous Mohit
  */
 
+/**
+ * Register the bp custom menu page post type
+ */
 function create_bp_custom_menu_page_post_type() {
     register_post_type( 'bp_custom_menu_page',
       array(
