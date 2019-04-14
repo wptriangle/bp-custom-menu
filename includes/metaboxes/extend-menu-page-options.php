@@ -1,6 +1,6 @@
 <?php
 /**
- * Menu Page Options Metabox
+ * Menu Page Options Metabox Extended
  *
  * @since      1.0
  * @package    BuddyPress Custom Menu
@@ -8,7 +8,7 @@
  */
 
 /**
- * Add Menu Page Options 
+ * Add Extended Menu Page Options 
  */
 
 function menu_page_options_extend_attributes_meta_box( $post ) {
@@ -17,7 +17,7 @@ function menu_page_options_extend_attributes_meta_box( $post ) {
 
 		$values = get_post_custom( $post->ID );
 
-		$default_menu_page = ( isset( $values[ 'default_menu_page' ][ 0 ] ) && '' !== $values[ 'default_menu_page' ][ 0 ] ) ? $values[ 'default_menu_page' ][ 0 ] : '';
+		$default_submenu = ( isset( $values[ 'default_submenu' ][ 0 ] ) && '' !== $values[ 'default_submenu' ][ 0 ] ) ? $values[ 'default_submenu' ][ 0 ] : '';
 
 		wp_nonce_field( 'bp_custom_menu_meta_box_nonce', 'meta_box_nonce' );
 
@@ -32,15 +32,16 @@ function menu_page_options_extend_attributes_meta_box( $post ) {
 				<div class="menu-page-options-metabox">
 			        <div class="components-base-control__field">
 			            <p class="post-attributes-label-wrapper"><strong><?php esc_html_e( 'Set Default Submenu', 'buddypress-custom-menu' ); ?></strong></p>
-			            <?php 
-				            $args = array(
-							    'child_of'     => $post->ID,
-							    'post_type'    => 'bp_custom_menu_page',
-							    'name'		   => 'default_menu_page',
-							    'id'		   => 'default_menu_page',
-							);
-				            wp_dropdown_pages( $args );
-			            ?>
+			            <select name="default_submenu" id="default_submenu">
+			            	<option value="<?php esc_attr_e( 'none', 'buddypress-custom-menu' ); ?>"<?php selected( $default_submenu, 'none' ); ?>><?php esc_html_e( 'None', 'buddypress-custom-menu' ); ?></option>
+				            <?php 
+					            foreach ( $submenus as $submenu ) {
+					            	?>
+					            		<option value="<?php echo $submenu->ID ?>" <?php selected( $default_submenu, $submenu->ID ); ?>><?php echo $submenu->post_title; ?></option>
+					            	<?php
+					            }
+				            ?>
+			            </select>
 			        </div>
 			    </div>
 			<?php
@@ -58,6 +59,7 @@ function save_menu_page_options( $post_id ) {
 
 	/* Default Submenu */
 
-	if( isset( $_POST['default_menu_page'] ) )
-        update_post_meta( $post_id, 'default_menu_page', esc_attr( $_POST['default_menu_page'] ) );
+	if( isset( $_POST['default_submenu'] ) )
+        update_post_meta( $post_id, 'default_submenu', esc_attr( $_POST['default_submenu'] ) );
 }
+add_action( 'save_post', 'save_menu_page_options' );

@@ -13,9 +13,9 @@
 require_once plugin_dir_path( dirname( __FILE__ ) ) . 'includes/bp-custom-menu.php';
 
 /*
- * Add Menu Page Options Metabox
+ * Add Menu Page Options Metabox Extensions
  */
-require_once plugin_dir_path( dirname( __FILE__ ) ) . 'includes/metaboxes/menu-page-options.php';
+require_once plugin_dir_path( dirname( __FILE__ ) ) . 'includes/metaboxes/extend-menu-page-options.php';
 
 /*
  * Add the menu items
