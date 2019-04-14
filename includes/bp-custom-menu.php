@@ -1,6 +1,6 @@
 <?php
 /**
- * 'BuddyPress custom menu page post type
+ * BuddyPress custom menu page post type
  *
  * @since      1.0
  * @package    BuddyPress Custom Menu
