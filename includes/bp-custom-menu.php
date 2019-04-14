@@ -27,7 +27,7 @@ function create_bp_custom_menu_page_post_type() {
           'not_found_in_trash' => __( 'No Menu Pages found in trash', 'buddypress-custom-menu' ),
           'parent_item_colon' => __( 'Parent Menu Page:', 'buddypress-custom-menu' ),
           'all_items' => __( 'All Menu Pages', 'buddypress-custom-menu' ),
-          'attributes' => __( 'Menu Page Attributes', 'buddypress-custom-menu' ),
+          'attributes' => __( 'Menu Page Options', 'buddypress-custom-menu' ),
         ),
         'public' => false,
         'has_archive' => false,
