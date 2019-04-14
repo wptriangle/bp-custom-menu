@@ -13,6 +13,11 @@
 require_once plugin_dir_path( dirname( __FILE__ ) ) . 'includes/bp-custom-menu.php';
 
 /*
+ * Add Menu Page Options Metabox
+ */
+require_once plugin_dir_path( dirname( __FILE__ ) ) . 'includes/metaboxes/menu-page-options.php';
+
+/*
  * Add the menu items
  */
 require_once plugin_dir_path( dirname( __FILE__ ) ) . 'includes/nav-adder.php';
