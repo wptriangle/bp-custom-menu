@@ -30,5 +30,10 @@ function bp_custom_menu_page_screen_function_content() {
 
 	$bp_current_nav_item_post = get_post( $bp_current_nav_item_id );
 
-	echo esc_html( $bp_current_nav_item_post->post_content );
+	$default_submenu = get_post_meta( $bp_current_nav_item_post->ID, 'default_submenu', true );
+
+	if ( empty ( $default_submenu ) || $default_submenu = '' ) {
+		echo esc_html( $bp_current_nav_item_post->post_content );
+	}
+
 }
