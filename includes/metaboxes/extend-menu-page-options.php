@@ -33,11 +33,11 @@ function menu_page_options_extend_attributes_meta_box( $post ) {
 			        <div class="components-base-control__field">
 			            <p class="post-attributes-label-wrapper"><strong><?php esc_html_e( 'Set Default Submenu', 'buddypress-custom-menu' ); ?></strong></p>
 			            <select name="default_submenu" id="default_submenu">
-			            	<option value="<?php esc_attr_e( 'none', 'buddypress-custom-menu' ); ?>"<?php selected( $default_submenu, 'none' ); ?>><?php esc_html_e( 'None', 'buddypress-custom-menu' ); ?></option>
+			            	<option value="<?php esc_attr_e( '', 'buddypress-custom-menu' ); ?>"<?php selected( $default_submenu, '' ); ?>><?php esc_html_e( 'None', 'buddypress-custom-menu' ); ?></option>
 				            <?php 
 					            foreach ( $submenus as $submenu ) {
 					            	?>
-					            		<option value="<?php echo $submenu->ID ?>" <?php selected( $default_submenu, $submenu->ID ); ?>><?php echo $submenu->post_title; ?></option>
+					            		<option value="<?php echo $submenu->post_name ?>" <?php selected( $default_submenu, $submenu->post_name ); ?>><?php echo $submenu->post_title; ?></option>
 					            	<?php
 					            }
 				            ?>
