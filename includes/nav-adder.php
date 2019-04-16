@@ -7,6 +7,13 @@
  * @author     Nahid Ferdous Mohit
  */
 
+/*
+ * If this file is called directly, abort.
+ */
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
+
 function bp_nav_adder() {
 	global $bp;
 	global $post;

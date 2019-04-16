@@ -8,6 +8,13 @@
  */
 
 /*
+ * If this file is called directly, abort.
+ */
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
+
+/*
  * Load the plugin only if BuddyPress
  * is active
  */

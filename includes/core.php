@@ -8,6 +8,13 @@
  */
 
 /*
+ * If this file is called directly, abort.
+ */
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
+
+/*
  * Register the post type
  */
 require_once plugin_dir_path( dirname( __FILE__ ) ) . 'includes/bp-custom-menu.php';
