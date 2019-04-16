@@ -14,6 +14,10 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
+/*
+ * Run the navigation menu adder logic
+ */
+
 function bp_nav_adder() {
 	global $bp;
 	global $post;
