@@ -38,3 +38,8 @@ require_once plugin_dir_path( dirname( __FILE__ ) ) . 'includes/parent-menu-page
  * Sub menu page handler
  */
 require_once plugin_dir_path( dirname( __FILE__ ) ) . 'includes/sub-menu-page.php';
+
+/*
+ * Custom plugin functions
+ */
+require_once plugin_dir_path( dirname( __FILE__ ) ) . 'includes/plugin-functions.php';
