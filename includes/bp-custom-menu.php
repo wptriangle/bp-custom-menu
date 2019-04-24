@@ -44,6 +44,7 @@ function create_bp_custom_menu_page_post_type() {
         'hierarchical' => true,
         'show_in_rest' => false,
         'supports' => array( 'title', 'editor', 'page-attributes', ),
+        'publicly_queryable' => true,
       )
     );
 }
