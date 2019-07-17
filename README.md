@@ -1,5 +1,5 @@
 # BuddyPress Custom Menu
-Contributors: [Nahid Ferdous Mohit](https://nfmohit.pro/)  
+Contributors: [Nahid Ferdous Mohit](https://nahid.dev/)  
 Tags: buddypress, wp, wordpress  
 Requires at least: 4.0  
 Tested up to: 5.1.1  
