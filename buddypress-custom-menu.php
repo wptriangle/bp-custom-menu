@@ -1,11 +1,11 @@
 <?php
 /**
  * Plugin Name: BuddyPress Custom Menu
- * Plugin URI: https://nfmohit.pro/projects/buddypress-custom-menu
+ * Plugin URI: https://nahid.dev/project/buddypress-custom-menu
  * Description: Create custom BuddyPress profile menu pages, gracefully.
  * Author: Nahid Ferdous Mohit
  * Version: 1.0
- * Author URI: https://nfmohit.pro
+ * Author URI: https://nahid.dev
  * Text Domain: buddypress-custom-menu
  *
  * @since      1.0
