@@ -46,7 +46,7 @@ If you want to contribute to the plugin by reporting issues, implementing new fe
 == Installation ==
 
 ### Requirements
-This plugin required the [BuddyPress plugin](https://wordpress.org/plugins/buddypress/) to be installed and activated to work.
+This plugin requires the [BuddyPress plugin](https://wordpress.org/plugins/buddypress/) to be installed and activated to work.
 
 ### Install
 #### Automatic Installation
