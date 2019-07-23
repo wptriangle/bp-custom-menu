@@ -66,7 +66,26 @@ function save_menu_page_options( $post_id ) {
 
 	/* Default Submenu */
 
-	if( isset( $_POST['default_submenu'] ) )
-        update_post_meta( $post_id, 'default_submenu', esc_attr( $_POST['default_submenu'] ) );
+	if( isset( $_POST['default_submenu'] ) ) {
+
+		$value = sanitize_text_field( $_POST['default_submenu'] );
+
+		$args = array(
+		    'post_parent' => $post->ID,
+		    'post_type'   => 'bp_custom_menu_page',
+		);
+		$submenus = get_children( $args );
+
+		$valid_values = array_map( function ( $submenu ) {
+				return $submenu->post_name;
+			},
+			$submenus
+		);
+
+		if ( in_array( $value, $valid_values ) || $value == '' ) {
+			update_post_meta( $post_id, 'default_submenu', $value );
+		}
+
+	}
 }
 add_action( 'save_post', 'save_menu_page_options' );
