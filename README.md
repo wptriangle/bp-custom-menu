@@ -1,8 +1,8 @@
-# BuddyPress Custom Menu
+# Custom Profile Menu for BuddyPress
 ### Description
 Ever wished you could add custom pages to the BuddyPress profile menu? Here's a plugin for that. Simply install and activate the plugin, add your custom menu page(s). That's it, Bingo!
 
-The **BuddyPress Custom Menu** plugin lets you add custom *static* pages to the BuddyPress profile menu. Extend the extremely limited BuddyPress profile menu by adding your desired number custom pages to it, with your desired content along with the built-in *Home*, *Activity*, *Profile*, *Notifications*, and *Settings* items.
+The **Custom Profile Menu for BuddyPress** plugin lets you add custom *static* pages to the BuddyPress profile menu. Extend the extremely limited BuddyPress profile menu by adding your desired number custom pages to it, with your desired content along with the built-in *Home*, *Activity*, *Profile*, *Notifications*, and *Settings* items.
 
 ### Use Cases
 The major use case of this plugin would be adding custom sections to the BuddyPress profile, e.g. a *terms & conditions page* or static pages with *shortcodes for forms, appointment bookings, WooCommerce products, and other infinite possibilities*.
@@ -21,7 +21,7 @@ This plugin requires the [BuddyPress plugin](https://wordpress.org/plugins/buddy
 ### Installation
 #### Automatic Installation
 1. Go to your *WordPress Dashboard→Plugins→Add New*.
-2. Search for **"BuddyPress Custom Menu"**.
+2. Search for **"Custom Profile Menu for BuddyPress"**.
 3. Click on **"Install"**.
 4. Once installed, click on **"Activate"**.
 
@@ -41,15 +41,15 @@ This plugin requires the [BuddyPress plugin](https://wordpress.org/plugins/buddy
 6. In order to re-order the menu items, enter an index in the **"Order"** field under the **"Menu Page Options"** in the right sidebar of the edit screen. A higher index means a higher level in the menu.
 
 ### Support
-If the above usage steps don't answer your question(s), if you want to report an issue or if something is not working as expected, please create a topic in the [Support Forum](https://wordpress.org/support/plugin/buddypress-custom-menu/) or [create an issue on GitHub](https://github.com/nfmohit-wpmudev/buddypress-custom-menu/issues/new/choose).
+If the above usage steps don't answer your question(s), if you want to report an issue or if something is not working as expected, please create a topic in the [Support Forum](https://wordpress.org/support/plugin/bp-custom-menu/) or [create an issue on GitHub](https://github.com/nfmohit-wpmudev/bp-custom-menu/issues/new/choose).
 
 ### Contribute
-If you want to contribute to the plugin by reporting issues, implementing new features and so on, [here's its development repository on Github](https://github.com/nfmohit-wpmudev/buddypress-custom-menu).
+If you want to contribute to the plugin by reporting issues, implementing new features and so on, [here's its development repository on Github](https://github.com/nfmohit-wpmudev/bp-custom-menu).
 
 ### Frequently Asked Questions
 
 **Is this plugin free?**
-Definitely! BuddyPress Custom Menu is free and always will be.
+Definitely! Custom Profile Menu for BuddyPress is free and always will be.
 
 **How many pages can I add to the menu?**
 Unlimited.

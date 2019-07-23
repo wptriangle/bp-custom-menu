@@ -3,7 +3,7 @@
  * Menu Page Options Metabox Extended
  *
  * @since      1.0
- * @package    BuddyPress Custom Menu
+ * @package    Custom Profile Menu for BuddyPress
  * @author     Nahid Ferdous Mohit
  */
 
@@ -38,9 +38,9 @@ function menu_page_options_extend_attributes_meta_box( $post ) {
 			?>
 				<div class="menu-page-options-metabox">
 			        <div class="components-base-control__field">
-			            <p class="post-attributes-label-wrapper"><strong><?php esc_html_e( 'Set Default Submenu', 'buddypress-custom-menu' ); ?></strong></p>
+			            <p class="post-attributes-label-wrapper"><strong><?php esc_html_e( 'Set Default Submenu', 'bp-custom-menu' ); ?></strong></p>
 			            <select name="default_submenu" id="default_submenu">
-			            	<option value="<?php esc_attr_e( '', 'buddypress-custom-menu' ); ?>"<?php selected( $default_submenu, '' ); ?>><?php esc_html_e( 'None', 'buddypress-custom-menu' ); ?></option>
+			            	<option value="<?php esc_attr_e( '', 'bp-custom-menu' ); ?>"<?php selected( $default_submenu, '' ); ?>><?php esc_html_e( 'None', 'bp-custom-menu' ); ?></option>
 				            <?php 
 					            foreach ( $submenus as $submenu ) {
 					            	?>

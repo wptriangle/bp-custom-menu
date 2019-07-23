@@ -3,7 +3,7 @@
  * Index file
  *
  * @since      1.0
- * @package    BuddyPress Custom Menu
+ * @package    Custom Profile Menu for BuddyPress
  * @author     Nahid Ferdous Mohit
  */
 

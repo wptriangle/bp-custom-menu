@@ -3,7 +3,7 @@
  * Plugin loader file
  *
  * @since      1.0
- * @package    BuddyPress Custom Menu
+ * @package    Custom Profile Menu for BuddyPress
  * @author     Nahid Ferdous Mohit
  */
 
@@ -34,7 +34,7 @@ add_action( 'plugins_loaded', 'bp_custom_menu_init' );
  */
 function bp_custom_menu_requires_bp() {
 	$class = 'notice notice-error';
-	$message = __( 'BuddyPress Custom Menu plugin requires BuddyPress to be active.', 'buddypress-custom-menu' );
+	$message = __( 'Custom Profile Menu for BuddyPress plugin requires BuddyPress to be active.', 'bp-custom-menu' );
 
 	printf( '<div class="%1$s"><p style="' . esc_attr( 'display: inline-block;' ) . '">%2$s</p> <a href="' . esc_url( 'https://wordpress.org/plugins/buddypress/' ) . '" target="' . esc_attr( '_blank' ) . '">Install and Activate BuddyPress</a>.</div>', esc_attr( $class ), esc_html( $message ) );
 }
