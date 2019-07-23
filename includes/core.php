@@ -17,7 +17,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 /*
  * Register the post type
  */
-require_once plugin_dir_path( dirname( __FILE__ ) ) . 'includes/bp-custom-menu.php';
+require_once plugin_dir_path( dirname( __FILE__ ) ) . 'includes/bp-custom-menu-page.php';
 
 /*
  * Add Menu Page Options Metabox Extensions
