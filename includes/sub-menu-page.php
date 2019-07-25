@@ -39,4 +39,5 @@ function bp_custom_sub_menu_screen_function_content() {
 
 	$content = $bp_current_nav_item_post->post_content;
 	echo apply_filters( 'the_content', $content );
+
 }
