@@ -16,7 +16,7 @@ function set_bp_custom_menu_depth( $a ) {
 	global $post;
 	if( $post->post_type == 'bp_custom_menu_page' ) {
   		$a['depth'] = 1;
-		  return $a;
+		return $a;
 	}
 }
 add_action( 'page_attributes_dropdown_pages_args','set_bp_custom_menu_depth' );
