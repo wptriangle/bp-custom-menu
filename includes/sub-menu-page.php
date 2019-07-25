@@ -37,5 +37,6 @@ function bp_custom_sub_menu_screen_function_content() {
 
 	$bp_current_nav_item_post = get_post( $bp_current_nav_item_id );
 
-	echo esc_html( $bp_current_nav_item_post->post_content );
+	$content = $bp_current_nav_item_post->post_content;
+	echo apply_filters( 'the_content', $content );
 }
