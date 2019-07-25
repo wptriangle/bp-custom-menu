@@ -2,7 +2,7 @@
 ### Description
 Ever wished you could add custom pages to the BuddyPress profile menu? Here's a plugin for that. Simply install and activate the plugin, add your custom menu page(s). That's it, Bingo!
 
-The **Custom Profile Menu for BuddyPress** plugin lets you add custom *static* pages to the BuddyPress profile menu. Extend the extremely limited BuddyPress profile menu by adding your desired number custom pages to it, with your desired content along with the built-in *Home*, *Activity*, *Profile*, *Notifications*, and *Settings* items.
+The **Custom Profile Menu for BuddyPress** plugin lets you add custom *static* pages to the BuddyPress profile menu. Extend the extremely limited BuddyPress profile menu by adding your desired number of custom pages to it, with your desired content along with the built-in *Home*, *Activity*, *Profile*, *Notifications*, and *Settings* items.
 
 ### Use Cases
 The major use case of this plugin would be adding custom sections to the BuddyPress profile, e.g. a *terms & conditions page* or static pages with *shortcodes for forms, appointment bookings, WooCommerce products, and other infinite possibilities*.
@@ -46,6 +46,9 @@ If the above usage steps don't answer your question(s), if you want to report an
 ### Contribute
 If you want to contribute to the plugin by reporting issues, implementing new features and so on, [here's its development repository on Github](https://github.com/nfmohit-wpmudev/bp-custom-menu).
 
+### Sponsor
+You can sponsor this project and support my open-source development by [becoming a Patron](https://www.patreon.com/nfmohit)!
+
 ### Frequently Asked Questions
 
 **Is this plugin free?**
@@ -63,4 +66,3 @@ Unlimited.
 
 **1.0**
 * Initial Release
-
