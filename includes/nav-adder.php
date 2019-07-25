@@ -80,7 +80,7 @@ function bp_nav_adder() {
 							'name' => $bp_custom_sub_menu_page->post_title,
 							'slug' => $bp_custom_sub_menu_page->post_name,
 							'parent_slug' => $bp_custom_menu_page->post_name,
-							'parent_url' => $bp->loggedin_user->domain . $bp_custom_menu_page->post_name . '/',
+							'parent_url' => $bp->displayed_user->domain . $bp_custom_menu_page->post_name . '/',
 							'screen_function' => 'bp_custom_sub_menu_screen_function',
 							'position' => $sub_menu_page_order,
 						)
