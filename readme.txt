@@ -4,7 +4,7 @@ Donate link: https://www.patreon.com/nfmohit
 Tags: buddypress, profile, custom, menu, wordpress
 Requires at least: 4.0
 Tested up to: 5.2.2
-Stable tag: 1.0
+Stable tag: 1.0.1
 Requires PHP: 5.6
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -94,10 +94,16 @@ Unlimited.
 
 == Changelog ==
 
+= 1.0.1 =
+* Fixes the image and shortcode not rendering issue.
+
 = 1.0 =
 * Initial Release
 
 == Upgrade Notice ==
+
+= 1.0.1 =
+* Bug Fix: Image and shortcodes were not rendering.
 
 = 1.0 =
 * Initial Release

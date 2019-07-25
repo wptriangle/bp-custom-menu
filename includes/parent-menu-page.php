@@ -2,7 +2,7 @@
 /**
  * Parent menu page handler
  *
- * @since      1.0
+ * @since      1.0.1
  * @package    Custom Profile Menu for BuddyPress
  * @author     Nahid Ferdous Mohit
  */

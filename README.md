@@ -59,10 +59,16 @@ Unlimited.
 
 ### Changelog
 
+**1.0.1**
+* Fixes the image and shortcode not rendering issue.
+
 **1.0**
 * Initial Release
 
-### Changelog
+### Upgrade Notice
+
+**1.0.1**
+* Bug Fix: Image and shortcodes were not rendering.
 
 **1.0**
 * Initial Release
