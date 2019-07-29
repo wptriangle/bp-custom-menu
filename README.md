@@ -1,4 +1,7 @@
 # Custom Profile Menu for BuddyPress
+
+![Custom Profile Menu for BuddyPress](https://ps.w.org/bp-custom-menu/assets/banner-1544x500.png)
+
 ### Description
 Ever wished you could add custom pages to the BuddyPress profile menu? Here's a plugin for that. Simply install and activate the plugin, add your custom menu page(s). That's it, Bingo!
 
