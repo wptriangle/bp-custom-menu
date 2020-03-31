@@ -4,7 +4,7 @@ Donate link: https://www.patreon.com/nfmohit
 Tags: buddypress, profile, custom, menu, wordpress
 Requires at least: 4.0
 Tested up to: 5.4
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 Requires PHP: 5.6
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -94,6 +94,9 @@ Unlimited.
 
 == Changelog ==
 
+= 1.0.2 =
+* Fixes issue where the plugin was adding an additional dropdown to the Page Attributes metabox (props to [@honoluluman](https://profiles.wordpress.org/honoluluman/) for reporting it)
+
 = 1.0.1 =
 * Fixes the image and shortcode not rendering issue.
 
@@ -101,6 +104,9 @@ Unlimited.
 * Initial Release
 
 == Upgrade Notice ==
+
+= 1.0.2 =
+* Bug Fix: An additional dropdown was being added to the Page Attributes metabox
 
 = 1.0.1 =
 * Bug Fix: Image and shortcodes were not rendering.
