@@ -18,8 +18,9 @@ function set_bp_custom_menu_depth( $a ) {
   		$a['depth'] = 1;
 		return $a;
 	}
+	return $a;
 }
-add_action( 'page_attributes_dropdown_pages_args','set_bp_custom_menu_depth' );
+add_filter( 'page_attributes_dropdown_pages_args','set_bp_custom_menu_depth' );
 add_filter( 'quick_edit_dropdown_pages_args', 'set_bp_custom_menu_depth' );
 
 /*
