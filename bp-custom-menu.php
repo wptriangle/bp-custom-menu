@@ -4,7 +4,7 @@
  * Plugin URI: https://nahid.dev/project/bp-custom-menu
  * Description: Create custom BuddyPress profile menu pages, gracefully.
  * Author: Nahid Ferdous Mohit
- * Version: 1.0.2
+ * Version: 1.0.3
  * Author URI: https://nahid.dev
  * Text Domain: bp-custom-menu
  *

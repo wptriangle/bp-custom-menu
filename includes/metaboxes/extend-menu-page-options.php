@@ -60,18 +60,18 @@ add_action( 'page_attributes_misc_attributes', 'menu_page_options_extend_attribu
 function save_menu_page_options( $post_id ) {
 	if( defined( 'DOING_AUTOSAVE' ) && DOING_AUTOSAVE ) return;
 
-	if( !isset( $_POST['meta_box_nonce'] ) || !wp_verify_nonce( $_POST['meta_box_nonce'], 'bp_custom_menu_meta_box_nonce' ) ) return;
+	if( ! isset( $_POST[ 'meta_box_nonce' ] ) || !wp_verify_nonce( $_POST[ 'meta_box_nonce' ], 'bp_custom_menu_meta_box_nonce' ) ) return;
 
-	if( !current_user_can( 'edit_post' ) ) return;
+	if( ! current_user_can( 'edit_post', $post_id ) ) return;
 
 	/* Default Submenu */
 
-	if( isset( $_POST['default_submenu'] ) ) {
+	if( isset( $_POST[ 'default_submenu' ] ) ) {
 
-		$value = sanitize_text_field( $_POST['default_submenu'] );
+		$value = sanitize_text_field( $_POST[ 'default_submenu' ] );
 
 		$args = array(
-		    'post_parent' => $post->ID,
+		    'post_parent' => $post_id,
 		    'post_type'   => 'bp_custom_menu_page',
 		);
 		$submenus = get_children( $args );

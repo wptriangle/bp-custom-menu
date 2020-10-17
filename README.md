@@ -73,6 +73,10 @@ Unlimited.
 
 ### Changelog
 
+**1.0.3**
+
+- Fixes minor PHP warnings and notices.
+
 **1.0.2**
 
 - Fixes issue where the plugin was adding an additional dropdown to the Page Attributes metabox (props to [@honoluluman](https://profiles.wordpress.org/honoluluman/) for reporting it)
@@ -86,6 +90,10 @@ Unlimited.
 - Initial Release
 
 ### Upgrade Notice
+
+**1.0.3**
+
+- Fixes minor PHP warnings and notices.
 
 **1.0.2**
 
